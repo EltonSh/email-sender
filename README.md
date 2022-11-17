@@ -5,12 +5,12 @@
 Written in *node.js*, this small utility uses the *nodemailer* module to send emails from a bash terminal. To use it, you need to have *node.js* installed on your system. This can be done easily from the command-line (e.g. in Ubuntu):
 >sudo apt install node
 
-You will also need to have installed the *nodemailer* module in the same directory where this repository will be stored. Navigate to the local clone of this repository and simply type:
+You will then need to install the *nodemailer* module in the same directory where this repository will be stored. Navigate to the local clone of this repository and simply type:
 >npm install nodemailer
 
-*npm* is the *node.js* official package manager. If no issues are encountered, a directory *node_nodules* will be created and a *nodemailer* inside of it.
+*npm* is the *node.js* official package manager. If no issues are encountered, a directory *node_modules* will be created and a *nodemailer* directory inside of it.
 
-It oftentimes happens for me to need to send a script or program file that I have just finished writting, to someone. The same can be said about a small data file (e.g. a *.csv* file). Using this utility, I do not need to leave the terminal to send the email. Instead, all I need is to write one line of code, as follows:
+In terms of use-case, it oftentimes happens for me to need to send a script or program file that I have just finished writting, to someone. The same can be said about a small data file (e.g. a *.csv* file). Using this utility, I do not need to leave the terminal to send the email. Instead, all I need is to write one line of code, as follows:
 
 >send-mail "\<the-recipient-address\>" "\<the-subject\>" "\<the-content\>" "\<path-to-attachment\>"
 
