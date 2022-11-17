@@ -5,11 +5,11 @@
 Written in *node.js*, this small utility uses the *nodemailer* module to send emails from a bash terminal. 
 I wrote it as it oftentimes happens for me to need to send a script or program file that I have just finished writting, to someone. The same can be said about a small data file (e.g. a *.csv* file). Using this utility, I do not need to leave the terminal to send the email. Instead, all I need is to write one line of code, as follows:
 
->send-mail "<the-recipient-address>" "<the-subject>" "<the-content>" "<path-to-attachment>"
+>send-mail "\<the-recipient-address\>" "\<the-subject\>" "\<the-content\>" "\<path-to-attachment\>"
 
 In order to evoke it as in the line above, you need to add the following alias in your *.bashrc* file:
 
->alias send-mail="node <path-to-script>/send_email.js"
+>alias send-mail="node \<path-to-script\>/send_email.js"
 
 and then
 
